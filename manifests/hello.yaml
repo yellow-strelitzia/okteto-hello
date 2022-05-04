@@ -29,6 +29,7 @@ metadata:
   annotations:
     dev.okteto.com/auto-ingress: "true"  
 spec:
+  type: LoadBalancer
   selector:
     app: nginx
   ports:
